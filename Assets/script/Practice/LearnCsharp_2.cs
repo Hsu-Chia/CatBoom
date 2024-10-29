@@ -73,7 +73,7 @@ public class LearnCsharp_2 : MonoBehaviour
      Debug.Log(i);
      string M="224";
      int N;
-     if(int.TryParse(M,out N))
+     if(int.TryParse(M,out N))//TryParse 主要用int.TryParse()這個去進行下判斷
      {
       Debug.Log("轉換成功"+N);  
      }

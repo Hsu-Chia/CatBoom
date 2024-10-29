@@ -6,12 +6,12 @@ public class LearnCsharp : MonoBehaviour
 {
     // Start is called before the first frame update
     double length = 4.5;
-    double width=3.5;
+    double width;
 
     void Start()
     {
        HelloWorld(); 
-    //    AcceptDetails();
+       AcceptDetails();
        Display();
        objectTest();
        Debug.Log(floatAdd(3,5));
@@ -29,11 +29,11 @@ public class LearnCsharp : MonoBehaviour
         Debug.Log("HelloWorld");
     }
 
-    // void AcceptDetails()
-    // {
-    //     length = 4.5;
-    //     width = 2.5;
-    // }
+    void AcceptDetails()
+    {
+        length = 4.5;
+        width = 2.5;
+    }
 
     double GetArea()
     {

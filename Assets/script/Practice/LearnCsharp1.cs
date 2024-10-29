@@ -174,7 +174,7 @@ public class LearnCsharp1 : MonoBehaviour
         c/=a;
         Debug.Log("Line 5 - /=  c 的值 ="+c);
         c = 200;
-        c %= a
+        c %= a;
         Debug.Log("Line 6 - %=  c 的值="+c);
         c<<=2;
         Debug.Log("Line 7 - <<=  c 的值 = "+c);
@@ -197,9 +197,9 @@ public class LearnCsharp1 : MonoBehaviour
       int a,b;
       a = 10;
       b = (a == 1)?20:30;
-      Debug.Log("b 的值是 ",b);
+      Debug.Log("b 的值是 "+b);
       b = (a == 10) ? 20 : 30;
-      Debug.Log("b 的值是 ",b);
+      Debug.Log("b 的值是 "+b);
 
     }
 

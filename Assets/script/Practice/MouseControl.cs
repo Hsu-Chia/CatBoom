@@ -23,8 +23,8 @@ public class MouseControl : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            Vector2 v2 = Input.mousePosition;
-            Debug.Log(Input.mousePosition);
+            //Vector2 v2 = Input.mousePosition;
+            //Debug.Log(Input.mousePosition);
             Instantiate(projectile,Spawnposition.transform.position, Quaternion.identity);
             Debug.Log("yes");
         }
