@@ -208,7 +208,7 @@ GameObject:
   m_Component:
   - component: {fileID: 297081636}
   - component: {fileID: 297081637}
-  - component: {fileID: 297081638}
+  - component: {fileID: 297081635}
   m_Layer: 0
   m_Name: CatSpawner
   m_TagString: Untagged
@@ -216,6 +216,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &297081635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 297081634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3a5c7681263e3449aff338026a790ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  catPrefab: {fileID: 7694777279540569306, guid: 44ec05572e753134a8156aeff688ac7a, type: 3}
+  Spawnposition: {fileID: 297081634}
 --- !u!4 &297081636
 Transform:
   m_ObjectHideFlags: 0
@@ -273,30 +287,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!114 &297081638
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 297081634}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8799abaf2a7068a4cbc653edb8b58c56, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  catPrefabs:
-  - {fileID: 7694777279540569306, guid: 44ec05572e753134a8156aeff688ac7a, type: 3}
-  - {fileID: 7694777279540569306, guid: 44ec05572e753134a8156aeff688ac7a, type: 3}
-  - {fileID: 7694777279540569306, guid: 44ec05572e753134a8156aeff688ac7a, type: 3}
-  - {fileID: 7694777279540569306, guid: 44ec05572e753134a8156aeff688ac7a, type: 3}
-  - {fileID: 7694777279540569306, guid: 44ec05572e753134a8156aeff688ac7a, type: 3}
-  - {fileID: 7694777279540569306, guid: 44ec05572e753134a8156aeff688ac7a, type: 3}
-  - {fileID: 7694777279540569306, guid: 44ec05572e753134a8156aeff688ac7a, type: 3}
-  - {fileID: 7694777279540569306, guid: 44ec05572e753134a8156aeff688ac7a, type: 3}
-  - {fileID: 7694777279540569306, guid: 44ec05572e753134a8156aeff688ac7a, type: 3}
-  - {fileID: 1327654735566635211, guid: 9b1878bc56bd7c54dad448c50b5fe70d, type: 3}
-  Spawnposition: {fileID: 297081634}
 --- !u!1 &424452995
 GameObject:
   m_ObjectHideFlags: 0

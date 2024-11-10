@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 7694777279540569304}
   - component: {fileID: 7694777279540569307}
   - component: {fileID: 7694777279540569310}
-  - component: {fileID: -7057021417980781800}
   m_Layer: 0
   m_Name: Circle
   m_TagString: Untagged
@@ -122,28 +121,3 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &-7057021417980781800
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7694777279540569306}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cacde54860e5ca449b00b39639483804, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  level: 9
-  mergeEffect: {fileID: 0}
-  levelSprites:
-  - {fileID: 21300000, guid: 68e5a78013e33f247822a837e55b0ab4, type: 3}
-  - {fileID: 21300000, guid: 68e5a78013e33f247822a837e55b0ab4, type: 3}
-  - {fileID: 21300000, guid: 68e5a78013e33f247822a837e55b0ab4, type: 3}
-  - {fileID: 21300000, guid: 68e5a78013e33f247822a837e55b0ab4, type: 3}
-  - {fileID: 21300000, guid: 68e5a78013e33f247822a837e55b0ab4, type: 3}
-  - {fileID: 21300000, guid: 68e5a78013e33f247822a837e55b0ab4, type: 3}
-  - {fileID: 21300000, guid: 68e5a78013e33f247822a837e55b0ab4, type: 3}
-  - {fileID: 21300000, guid: 68e5a78013e33f247822a837e55b0ab4, type: 3}
-  - {fileID: 21300000, guid: 68e5a78013e33f247822a837e55b0ab4, type: 3}
-  - {fileID: 21300000, guid: 68e5a78013e33f247822a837e55b0ab4, type: 3}
